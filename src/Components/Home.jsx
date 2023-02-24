@@ -8,12 +8,12 @@ import bell from "../assets/bell.png";
 function Home() {
   return (
     <>
-      <section className="flex place-content-center justify-center gap-20 place-items-center bg-[#070D18] w-screen h-screen text-base">
+      <section className="flex justify-center gap-20 items-center bg-[#070D18] w-screen h-screen text-base">
         <p className="absolute text-transparent font-outline-1 text-[21rem] bottom-[370px] left-[170px]">
           afq
         </p>
         {/* Col 1 */}
-        <div className="grid grid-rows-3">
+        <div className="grid grid-rows-3 z-10">
           <div className="row-start-3 row-span-2 w-20 -rotate-45 ml-auto mt-auto">
             <img src={bell} alt="" />
           </div>
@@ -41,7 +41,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col w-[733px] h-max justify-evenly place-items-center gap-16">
+        <div className="flex flex-col w-[733px] h-max justify-evenly place-items-center gap-16 z-10">
           <div className="flex flex-col justify-evenly h-max gap-10 text-center place-items-center">
             <h1 className="text-white text-[42px] leading-[74px] font-bold">
               Advanced software, advanced research for{" "}
@@ -73,7 +73,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="grid grid-rows-4 h-full">
+        <div className="grid grid-rows-4 h-full z-10">
           <div className="row-start-1 row-span-2 w-20 -rotate-45 m-auto">
             <img src={bulb} alt="" />
           </div>
