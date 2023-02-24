@@ -7,6 +7,11 @@
 @layer base {
   html {
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+
+  .underlineNav {
+    border-bottom: 3px solid #22d3ee;
   }
 
   .font-outline-1 {

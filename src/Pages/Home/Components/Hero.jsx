@@ -1,11 +1,11 @@
 import React from "react";
-import employee from "../assets/employee.jpg";
-import code from "../assets/code.png";
-import desktop from "../assets/desktop.png";
-import bulb from "../assets/bulb.png";
-import bell from "../assets/bell.png";
+import employee from "../../../assets/jpg/employee.jpg";
+import code from "../../../assets/png/code.png";
+import desktop from "../../../assets/png/desktop.png";
+import bulb from "../../../assets/png/bulb.png";
+import bell from "../../../assets/png/bell.png";
 
-function Home() {
+function Hero() {
   return (
     <>
       <section className="flex justify-center gap-20 items-center bg-[#070D18] w-screen h-screen text-base">
@@ -123,4 +123,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hero;

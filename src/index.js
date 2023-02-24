@@ -2,11 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Home from "./Components/Home";
-import Header from "./Components/Header";
-import Messages from "./Components/Messages";
-import About from "./Components/About";
-import News from "./Components/About";
+import Header from "./Common/Header";
+import Home from "./Pages/Home/index";
+import Services from "./Pages/Services/index";
+import AboutUs from "./Pages/About/index";
+import News from "./Pages/News/index";
+import Footer from "./Common/Footer";
+
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -17,10 +19,11 @@ root.render(
 
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/messages" element={<Messages />}></Route>
-        <Route exact path="/about" element={<About />}></Route>
+        <Route exact path="/about" element={<AboutUs />}></Route>
+        <Route exact path="/services" element={<Services />}></Route>
         <Route exact path="/news" element={<News />}></Route>
       </Routes>
     </Router>
+    {/* <Footer /> */}
   </>
 );
