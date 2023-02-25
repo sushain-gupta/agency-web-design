@@ -1,4 +1,6 @@
 import React from "react";
+import { AiOutlineArrowRight } from "react-icons/ai";
+
 import employee from "../../../assets/jpg/employee.jpg";
 import code from "../../../assets/png/code.png";
 import desktop from "../../../assets/png/desktop.png";
@@ -56,7 +58,7 @@ function Hero() {
               Get a Quote
               <p className="flex rounded-md bg-white p-2 text-gray-800">
                 {" "}
-                <ion-icon name="arrow-forward-outline"></ion-icon>
+                <AiOutlineArrowRight />
               </p>
             </button>
           </div>
