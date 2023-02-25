@@ -10,11 +10,29 @@
     overflow-x: hidden;
   }
 
+  .section {
+    display: flex;
+    padding: 5rem;
+    min-height: 100vh;
+    height: max-content;
+    width: 100vw;
+    align-items: center;
+    background-color: #f1f1f1;
+  }
+
   .underlineNav {
     border-bottom: 3px solid #22d3ee;
   }
 
   .font-outline-1 {
     -webkit-text-stroke: 1px #37415172;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #073037;
   }
 }

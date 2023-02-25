@@ -6,7 +6,7 @@ import clock from "../../../assets/png/clock.png";
 function Main() {
   return (
     <>
-      <section className="flex h-screen w-screen flex-col items-center justify-evenly gap-5 bg-slate-100 px-20 text-center">
+      <section className="section flex-col justify-evenly gap-5 p-20 text-center">
         <div className="flex w-full flex-col items-center gap-5">
           <h1 className="text-3xl font-semibold">
             About <span className="text-sky-500">Lorem</span>
@@ -21,8 +21,8 @@ function Main() {
           </p>
         </div>
 
-        <div className="grid w-full grid-cols-3 gap-12 text-sm">
-          <div className="flex flex-col items-center justify-evenly gap-2 rounded-xl bg-white p-10 shadow-xl">
+        <div className="sm:grid-col-1 grid w-full gap-12 text-sm md:grid-cols-2 lg:grid-cols-3 ">
+          <div className="flex flex-col items-center justify-evenly gap-2 rounded-xl bg-[#FFFEFE] p-10 shadow-xl">
             <div className="flex h-[50%] w-[50%] items-center">
               <img className="max-h-full max-w-full" src={polygon} alt="" />
             </div>

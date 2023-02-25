@@ -8,29 +8,29 @@ import bell from "../../../assets/png/bell.png";
 function Hero() {
   return (
     <>
-      <section className="flex justify-center gap-20 items-center bg-[#070D18] w-screen h-screen text-base">
-        <p className="absolute text-transparent font-outline-1 text-[21rem] bottom-[370px] left-[170px]">
+      <section className="section h-screen justify-center gap-20 bg-darkBlue p-0 text-base">
+        <p className="font-outline-1 absolute bottom-[370px] left-[170px] text-[21rem] text-transparent">
           afq
         </p>
         {/* Col 1 */}
-        <div className="grid grid-rows-3 z-10">
-          <div className="row-start-3 row-span-2 w-20 -rotate-45 ml-auto mt-auto">
+        <div className="z-10 grid grid-rows-3">
+          <div className="row-span-2 row-start-3 ml-auto mt-auto w-20 -rotate-45">
             <img src={bell} alt="" />
           </div>
           {/* CARD */}
-          <div className="row-start-2 m-auto flex flex-col p-5 h-max bg-white/[0.25] backdrop-blur-sm w-56 text-gray-50 rounded-xl gap-2">
+          <div className="row-start-2 m-auto flex h-max w-56 flex-col gap-2 rounded-xl bg-white/[0.25] p-5 text-gray-50 backdrop-blur-sm">
             <div className="flex w-full gap-2">
-              <div className="w-11 h-11 rounded-full overflow-hidden">
+              <div className="h-11 w-11 overflow-hidden rounded-full">
                 {" "}
                 <img
-                  className=" object-cover w-full h-full"
+                  className=" h-full w-full object-cover"
                   src={employee}
                   alt=""
                 />
               </div>
 
               {""}
-              <p className="text-sm my-auto">Jhon Doe</p>
+              <p className="my-auto text-sm">Jhon Doe</p>
             </div>
             <p className="text-xs">⭐⭐⭐⭐⭐ 5.0</p>
             <p>Lorem ipsum dolor sit.</p>
@@ -41,65 +41,65 @@ function Hero() {
           </div>
         </div>
 
-        <div className="flex flex-col w-[733px] h-max justify-evenly place-items-center gap-16 z-10">
-          <div className="flex flex-col justify-evenly h-max gap-10 text-center place-items-center">
-            <h1 className="text-white text-[42px] leading-[74px] font-bold">
+        <div className="z-10 flex h-max w-[733px] flex-col place-items-center justify-evenly gap-16">
+          <div className="flex h-max flex-col place-items-center justify-evenly gap-10 text-center">
+            <h1 className="text-[42px] font-bold leading-[74px] text-white">
               Advanced software, advanced research for{" "}
               <span className="text-[#41BBEA]">SIMPLE</span> life
             </h1>
-            <p className="text-[#CECECE] leading-9">
+            <p className="leading-9 text-[#CECECE]">
               We harness the latest technologies to develop cutting-edge digital
               solutions for modern business requirements
             </p>
 
-            <button className="flex place-items-center gap-2 font-normal text-[#FFFFFF] bg-gray-50/[.44] w-max p-2 rounded-[11px]">
+            <button className="flex w-max place-items-center gap-2 rounded-[11px] bg-gray-50/[.44] p-2 font-normal text-[#FFFFFF]">
               Get a Quote
-              <p className="bg-white flex text-gray-800 p-2 rounded-md">
+              <p className="flex rounded-md bg-white p-2 text-gray-800">
                 {" "}
                 <ion-icon name="arrow-forward-outline"></ion-icon>
               </p>
             </button>
           </div>
 
-          <div className="flex justify-center w-max gap-6 text-center text-gray-50">
-            <div className="flex flex-col w-[40%]">
+          <div className="flex w-max justify-center gap-6 text-center text-gray-50">
+            <div className="flex w-[40%] flex-col">
               <h2 className="text-4xl font-bold">1234</h2>
               <p className="text-xs">Lorem ipsum dolor sit amet.</p>
             </div>
-            <div className="flex flex-col w-[40%]">
+            <div className="flex w-[40%] flex-col">
               <h2 className="text-4xl font-bold">1234</h2>
               <p className="text-xs">Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-rows-4 h-full z-10">
-          <div className="row-start-1 row-span-2 w-20 -rotate-45 m-auto">
+        <div className="z-10 grid h-full grid-rows-4">
+          <div className="row-span-2 row-start-1 m-auto w-20 -rotate-45">
             <img src={bulb} alt="" />
           </div>
-          <div className="row-start-3 flex flex-col p-5 bg-white/[0.35] backdrop-blur-sm w-56 rounded-xl gap-4 h-max">
-            <div className="flex -mx-20 w-max h-max gap-5 px-6 py-3 rounded-md bg-white">
-              <div className="w-11 h-11 m-auto rounded-full overflow-hidden">
+          <div className="row-start-3 flex h-max w-56 flex-col gap-4 rounded-xl bg-white/[0.35] p-5 backdrop-blur-sm">
+            <div className="-mx-20 flex h-max w-max gap-5 rounded-md bg-white px-6 py-3">
+              <div className="m-auto h-11 w-11 overflow-hidden rounded-full">
                 {" "}
-                <img className="object-cover w-full h-full" src={code} alt="" />
+                <img className="h-full w-full object-cover" src={code} alt="" />
               </div>
               <div className="flex flex-col gap-2">
                 <p className="text-sm">Web Development</p>
                 <div className="flex gap-2 text-xs">
-                  <button className="bg-gray-200 text-gray-500 p-1 rounded-md">
+                  <button className="rounded-md bg-gray-200 p-1 text-gray-500">
                     Personal
                   </button>
-                  <button className="bg-red-100 text-red-500 p-1 rounded-md">
+                  <button className="rounded-md bg-red-100 p-1 text-red-500">
                     Coding
                   </button>
                 </div>
               </div>
             </div>
-            <div className="flex w-max -mx-10 h-max gap-5 px-6 py-3 rounded-md bg-white">
-              <div className="w-11 h-11 m-auto rounded-full overflow-hidden">
+            <div className="-mx-10 flex h-max w-max gap-5 rounded-md bg-white px-6 py-3">
+              <div className="m-auto h-11 w-11 overflow-hidden rounded-full">
                 {" "}
                 <img
-                  className=" object-cover w-full h-full"
+                  className=" h-full w-full object-cover"
                   src={desktop}
                   alt=""
                 />
@@ -107,10 +107,10 @@ function Hero() {
               <div className="flex flex-col gap-2">
                 <p className="text-sm">Game Develepmet</p>
                 <div className="flex gap-2 text-xs">
-                  <button className="bg-red-100 text-red-500 p-1 rounded-md">
+                  <button className="rounded-md bg-red-100 p-1 text-red-500">
                     Work
                   </button>
-                  <button className="bg-violet-100 text-violet-500 p-1 rounded-md">
+                  <button className="rounded-md bg-violet-100 p-1 text-violet-500">
                     Interactive games
                   </button>
                 </div>
