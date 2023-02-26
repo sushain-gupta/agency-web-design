@@ -7,6 +7,7 @@ import Home from "./Pages/Home/index";
 import Services from "./Pages/Services/index";
 import AboutUs from "./Pages/About/index";
 import News from "./Pages/News/index";
+import Footer from "./Common/Footer";
 
 import "./index.css";
 
@@ -22,7 +23,7 @@ root.render(
         <Route exact path="/services" element={<Services />}></Route>
         <Route exact path="/news" element={<News />}></Route>
       </Routes>
+      <Footer />
     </Router>
-    {/* <Footer /> */}
   </>
 );

@@ -22,7 +22,7 @@ function Main() {
         </div>
 
         <div className="sm:grid-col-1 grid w-full gap-12 text-sm md:grid-cols-2 lg:grid-cols-3 ">
-          <div className="flex flex-col items-center justify-evenly gap-2 rounded-xl bg-[#FFFEFE] p-10 shadow-xl">
+          <div className="flex flex-col items-center justify-evenly gap-2 rounded-xl bg-gray-200 p-10 transition-all duration-700 hover:bg-[#FFFEFE] hover:shadow-2xl">
             <div className="flex h-[50%] w-[50%] items-center">
               <img className="max-h-full max-w-full" src={polygon} alt="" />
             </div>
@@ -33,7 +33,7 @@ function Main() {
             </p>
           </div>
 
-          <div className="flex flex-col items-center justify-evenly gap-2 rounded-xl bg-gray-200 p-10">
+          <div className="flex flex-col items-center justify-evenly gap-2 rounded-xl bg-gray-200 p-10 transition-all duration-700 hover:bg-[#FFFEFE] hover:shadow-2xl">
             <div className="flex h-[50%] w-[50%] items-center overflow-hidden">
               <img className="max-h-full max-w-full" src={chart} alt="" />
             </div>
@@ -44,7 +44,7 @@ function Main() {
             </p>
           </div>
 
-          <div className="flex flex-col items-center justify-evenly gap-2 rounded-xl bg-gray-200 p-10">
+          <div className="flex flex-col items-center  justify-evenly gap-2 rounded-xl bg-gray-200 p-10 transition-all duration-700 hover:bg-[#FFFEFE] hover:shadow-2xl">
             <div className="flex h-[50%] w-[50%] items-center overflow-hidden">
               <img className="max-h-full max-w-full" src={clock} alt="" />
             </div>
