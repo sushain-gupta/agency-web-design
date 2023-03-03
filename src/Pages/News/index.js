@@ -1,7 +1,8 @@
 import React from "react";
+import Hero from "./Components/Hero";
 
 function News() {
-  return <div>News</div>;
+  return <Hero />;
 }
 
 export default News;

@@ -1,9 +1,10 @@
 import React from "react";
+import Hero from "./Components/Hero";
 
 function AboutUs() {
   return (
     <>
-      <section className="flex h-screen w-[100vw]">About Us</section>
+      <Hero />
     </>
   );
 }
