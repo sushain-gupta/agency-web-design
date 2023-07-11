@@ -1,14 +1,19 @@
 import React from "react";
 import cardImage from "../../../assets/svg/Rectangle 19.svg";
 import profile from "../../../assets/jpg/profile.jpg";
-import NewsCard from "../../../components/NewsCard";
+import NewsCards from "../../../components/NewsCards";
 
-const Main = () => {
+const CardContainer = () => {
 	return (
-		<section className=" flex flex-col gap-20 p-28 pt-0">
+		<section className="flex flex-col gap-20 p-28 pt-0">
 			<div className="flex gap-14">
 				<div className="flex-1 overflow-hidden rounded-3xl">
-					<img className="h-full w-full object-cover" src={cardImage} alt="" />
+					<img
+						className="h-full w-full object-cover"
+						loading="lazy"
+						src={cardImage}
+						alt=""
+					/>
 				</div>
 
 				<div className="flex flex-1 flex-col justify-center gap-5">
@@ -27,6 +32,7 @@ const Main = () => {
 						<div className="h-12 w-12 overflow-hidden rounded-full">
 							<img
 								className="h-full w-full object-cover"
+								loading="lazy"
 								src={profile}
 								alt=""
 							/>
@@ -38,11 +44,11 @@ const Main = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex w-full flex-wrap justify-between gap-20">
-				<NewsCard />
+			<div className="flex w-full flex-wrap justify-between">
+				<NewsCards />
 			</div>
 		</section>
 	);
 };
 
-export default Main;
+export default CardContainer;

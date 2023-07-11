@@ -1,7 +1,7 @@
 import React from "react";
 import { newsArray } from "../data/data";
 
-const NewsCard = () => {
+const NewsCards = () => {
 	return (
 		<>
 			{newsArray.map((news, key) => {
@@ -13,6 +13,7 @@ const NewsCard = () => {
 						<div className="w-full overflow-hidden rounded-3xl">
 							<img
 								className="h-full w-full object-cover"
+								loading="lazy"
 								src={news.image}
 								alt=""
 							/>
@@ -27,6 +28,7 @@ const NewsCard = () => {
 							<div className="h-12 w-12 overflow-hidden rounded-full">
 								<img
 									className="h-full w-full object-cover"
+									loading="lazy"
 									src={news.profile}
 									alt=""
 								/>
@@ -43,4 +45,4 @@ const NewsCard = () => {
 	);
 };
 
-export default NewsCard;
+export default NewsCards;
