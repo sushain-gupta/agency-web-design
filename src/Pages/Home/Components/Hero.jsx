@@ -10,7 +10,7 @@ import bell from "../../../assets/png/bell.png";
 function Hero() {
 	return (
 		<>
-			<section className="flex h-[90vh] items-center justify-center gap-20 bg-darkBlue p-0 text-base">
+			<section className="flex h-[90vh] items-center justify-center gap-20 bg-neutral-900 p-0 text-base">
 				<p className="font-outline-1 absolute bottom-[370px] left-[170px] text-[21rem] text-transparent">
 					afq
 				</p>

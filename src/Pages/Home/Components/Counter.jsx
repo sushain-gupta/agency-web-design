@@ -8,7 +8,7 @@ import succlent from "../../../assets/png/succlent.png";
 function Counter() {
 	return (
 		<>
-			<section className="relative grid h-80 grid-cols-4 items-center bg-darkBlue px-10 text-white">
+			<section className="relative grid h-80 grid-cols-4 items-center bg-neutral-900 px-10 text-white">
 				<div className="absolute -bottom-0 left-0">
 					<img src={vector1} alt="" />
 				</div>

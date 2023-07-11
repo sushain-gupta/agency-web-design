@@ -5,7 +5,7 @@ import NewsCard from "../../../components/NewsCard";
 
 const Main = () => {
 	return (
-		<section className=" flex flex-col gap-20 p-28">
+		<section className=" flex flex-col gap-20 p-28 pt-0">
 			<div className="flex gap-14">
 				<div className="flex-1 overflow-hidden rounded-3xl">
 					<img className="h-full w-full object-cover" src={cardImage} alt="" />

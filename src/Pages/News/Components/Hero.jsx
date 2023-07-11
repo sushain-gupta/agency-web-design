@@ -8,7 +8,7 @@ import bell from "../../../assets/svg/bell_2 1.svg";
 function Hero() {
 	return (
 		<>
-			<section className="relative grid h-[60vh] grid-cols-3 items-center px-0 text-neutral-900">
+			<section className="relative grid grid-cols-3 items-center py-20 px-0 text-neutral-900">
 				<div className="absolute bottom-28 right-40">
 					<img src={vector1} alt="" />
 				</div>
