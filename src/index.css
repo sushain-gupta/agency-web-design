@@ -5,40 +5,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@50;100;200;300;400;500;600;700&display=swap");
 
 @layer base {
-  html {
-    font-family: "Poppins", sans-serif;
-    overflow-x: hidden;
-  }
+	.underlineNav {
+		border-bottom: 3px solid #22d3ee;
+	}
 
-  .section {
-    display: flex;
-    padding: 5rem;
-    min-height: 100vh;
-    height: max-content;
-    width: 100vw;
-    align-items: center;
-    background-color: #f1f1f1;
-  }
+	.font-outline-1 {
+		-webkit-text-stroke: 1px #37415172;
+	}
+}
 
-  .underlineNav {
-    border-bottom: 3px solid #22d3ee;
-  }
+html,
+body,
+#root,
+.app,
+.content {
+	max-width: 100vw;
+	overflow-x: hidden;
+	font-family: "Poppins", sans-serif;
+}
+.content {
+	overflow-y: hidden;
+}
 
-  .font-outline-1 {
-    -webkit-text-stroke: 1px #37415172;
-  }
+::-webkit-scrollbar {
+	width: 0.4rem;
+}
 
-  ::-webkit-scrollbar {
-    width: 0.4rem;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #073037;
-  }
+::-webkit-scrollbar-thumb {
+	background-color: #073037;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #4f46e5;
-  width: 1rem;
-  border-radius: 0.5rem;
+	background-color: #4f46e5;
+	width: 1rem;
+	border-radius: 0.5rem;
+}
+
+.swiper-slide {
+	height: auto !important;
 }
