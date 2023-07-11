@@ -26,7 +26,7 @@ function Header() {
 						</li>
 						<li className="flex h-full items-center">
 							<NavLink
-								to="About"
+								to="about"
 								style={{
 									height: "100%",
 									display: "flex",
@@ -39,7 +39,7 @@ function Header() {
 						</li>
 						<li className="flex h-full items-center">
 							<NavLink
-								to="Services"
+								to="services"
 								style={{
 									height: "100%",
 									display: "flex",
@@ -52,7 +52,7 @@ function Header() {
 						</li>
 						<li className="flex h-full items-center">
 							<NavLink
-								to="News"
+								to="news"
 								style={{
 									height: "100%",
 									display: "flex",
