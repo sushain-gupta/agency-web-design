@@ -6,7 +6,10 @@ const NewsCard = () => {
 		<>
 			{newsArray.map((news, key) => {
 				return (
-					<div className="my-10 flex w-80 flex-col gap-4" key={key}>
+					<div
+						className="my-10 flex w-80 flex-col gap-4 transition-all duration-300"
+						key={key}
+					>
 						<div className="w-full overflow-hidden rounded-3xl">
 							<img
 								className="h-full w-full object-cover"
@@ -16,7 +19,7 @@ const NewsCard = () => {
 						</div>
 
 						<div className="flex flex-col gap-4">
-							<h4 className="text-2xl font-semibold">{news.title}</h4>
+							<h4 className="text-xl font-semibold">{news.title}</h4>
 							<p>{news.desc}</p>
 						</div>
 

@@ -16,7 +16,10 @@ const App = () => {
 	};
 
 	return (
-		<div style={{ width: getWidth() }} className={`app m-auto`}>
+		<div
+			style={{ width: getWidth() }}
+			className="app m-auto  transition-all duration-300"
+		>
 			<Header />
 			<div className="content">
 				<Routes>
