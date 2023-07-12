@@ -7,7 +7,7 @@ const NewsCards = () => {
 			{newsArray.map((news, key) => {
 				return (
 					<div
-						className="mt-10 flex w-80 flex-col gap-4 rounded-3xl p-5 shadow-xl"
+						className="mt-10 m-auto flex w-80 flex-col gap-4 rounded-3xl p-5 shadow-xl"
 						key={key}
 					>
 						<div className="w-full overflow-hidden rounded-3xl">

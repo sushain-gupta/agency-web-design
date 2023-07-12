@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
 	let activeNav = "underlineNav";
@@ -65,9 +65,12 @@ function Header() {
 						</li>
 					</ul>
 
-					<button className="rounded-md border border-sky-400 px-5 py-2">
+					<Link
+						to="/contact"
+						className="rounded-md border border-sky-400 px-5 py-2"
+					>
 						Contact us
-					</button>
+					</Link>
 				</nav>
 			</header>
 		</>

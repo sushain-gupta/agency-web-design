@@ -7,6 +7,7 @@ import Services from "./Pages/Services/index";
 import AboutUs from "./Pages/About/index";
 import News from "./Pages/News/index";
 import Footer from "./global/Footer";
+import Contact from "./Pages/Contact/index";
 
 const App = () => {
 	// Your logic to calculate the width dynamically
@@ -27,6 +28,7 @@ const App = () => {
 					<Route path="/about" element={<AboutUs />}></Route>
 					<Route path="/services" element={<Services />}></Route>
 					<Route path="/news" element={<News />}></Route>
+					<Route path="/contact" element={<Contact />}></Route>
 				</Routes>
 			</div>
 			<Footer />

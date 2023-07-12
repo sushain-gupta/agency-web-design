@@ -43,7 +43,7 @@ const CardContainer = () => {
 				</div>
 			</div>
 
-			<div className="flex w-full flex-wrap justify-between">
+			<div className="flex w-full flex-wrap gap-12">
 				<NewsCards />
 			</div>
 		</section>
