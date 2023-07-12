@@ -1,17 +1,15 @@
 import React from "react";
-import cardImage from "../../../assets/svg/Rectangle 19.svg";
 import profile from "../../../assets/jpg/profile.jpg";
 import NewsCards from "../../../components/NewsCards";
 
 const CardContainer = () => {
 	return (
-		<section className="flex flex-col gap-20 p-28 pt-0">
-			<div className="flex gap-14">
+		<section className="flex flex-col gap-20 p-28 pt-0 pb-10">
+			<div className="flex gap-14 rounded-3xl p-5 shadow-xl">
 				<div className="flex-1 overflow-hidden rounded-3xl">
 					<img
 						className="h-full w-full object-cover"
-						loading="lazy"
-						src={cardImage}
+						src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689164674/furniturelo/newsCards/Rectangle_19-min_hwbne4.png"
 						alt=""
 					/>
 				</div>
@@ -44,6 +42,7 @@ const CardContainer = () => {
 					</div>
 				</div>
 			</div>
+
 			<div className="flex w-full flex-wrap justify-between">
 				<NewsCards />
 			</div>

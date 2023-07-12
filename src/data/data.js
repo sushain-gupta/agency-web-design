@@ -7,7 +7,7 @@ export const newsArray = [
 		profile:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile2-min_1_iquwj5.jpg",
 		image:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102127/furniturelo/newsCards/Rectangle_20_c6aa3t.svg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689150417/furniturelo/newsCards/Rectangle_20_b0pxj5.svg",
 	},
 	{
 		title: "Lorem Ipsum is simply dummy text of the printing.",
@@ -17,7 +17,7 @@ export const newsArray = [
 		profile:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile3jpg-min_l6ljm3.jpg",
 		image:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102126/furniturelo/newsCards/Rectangle_21_wmuzxg.svg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689150417/furniturelo/newsCards/Rectangle_21_wvlvcs.svg",
 	},
 	{
 		title: "Lorem Ipsum is simply dummy text of the printing.",
@@ -27,7 +27,7 @@ export const newsArray = [
 		profile:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile6-min_ve1gt8.jpg",
 		image:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102125/furniturelo/newsCards/Rectangle_24_f32w66.svg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689150418/furniturelo/newsCards/Rectangle_22_dtbma1.svg",
 	},
 	{
 		title: "Lorem Ipsum is simply dummy text of the printing.",
@@ -37,7 +37,7 @@ export const newsArray = [
 		profile:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_1_lf3z6b.jpg",
 		image:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102126/furniturelo/newsCards/Rectangle_23_nu1osq.svg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689150418/furniturelo/newsCards/Rectangle_23_ccicnt.svg",
 	},
 	{
 		title: "Lorem Ipsum is simply dummy text of the printing.",
@@ -47,7 +47,7 @@ export const newsArray = [
 		profile:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile4-min_wwumhk.jpg",
 		image:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102125/furniturelo/newsCards/Rectangle_24_f32w66.svg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689150418/furniturelo/newsCards/Rectangle_22_dtbma1.svg",
 	},
 	{
 		title: "Lorem Ipsum is simply dummy text of the printing.",
@@ -57,6 +57,58 @@ export const newsArray = [
 		profile:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile5-min_iz6uyc.jpg",
 		image:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102125/furniturelo/newsCards/Rectangle_25_ugcdmx.svg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689150418/furniturelo/newsCards/Rectangle_25_yu5h02.svg",
+	},
+];
+
+export const teamDetails = [
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		name: "John Doe",
+		position: "Mgr",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159125/furniturelo/profile/Rectangle_73_vjapmk.jpg",
+	},
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		name: "Jane Smith",
+		position: "SR",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159125/furniturelo/profile/Rectangle_74_oaz9sg.jpg",
+	},
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		name: "Michael Johnson",
+		position: "Dev",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159124/furniturelo/profile/Rectangle_75_actxbo.jpg",
+	},
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		name: "Emily Davis",
+		position: "Mkt",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159125/furniturelo/profile/Rectangle_73_vjapmk.jpg",
+	},
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		name: "David Brown",
+		position: "Acc",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159125/furniturelo/profile/Rectangle_74_oaz9sg.jpg",
+	},
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		name: "Olivia Wilson",
+		position: "GD",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159124/furniturelo/profile/Rectangle_75_actxbo.jpg",
+	},
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		name: "William Lee",
+		position: "PM",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159125/furniturelo/profile/Rectangle_73_vjapmk.jpg",
 	},
 ];

@@ -5,7 +5,7 @@ import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import NewsCard from "../../../components/NewsSliderCard";
+import NewsSliderCard from "../../../components/NewsSliderCard";
 import image1 from "../../../assets/svg/newsImage-1.svg";
 import image2 from "../../../assets/svg/newsImage-2.svg";
 import image3 from "../../../assets/svg/newsImage-3.svg";
@@ -39,7 +39,7 @@ function LatestNews() {
 					className="mySwiper w-full py-14"
 				>
 					<SwiperSlide>
-						<NewsCard
+						<NewsSliderCard
 							image={image1}
 							date="12/12/2020"
 							title="Holopot"
@@ -47,7 +47,7 @@ function LatestNews() {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<NewsCard
+						<NewsSliderCard
 							image={image2}
 							date="12/12/2020"
 							title="Nawaloka Hospitals Mobile App"
@@ -55,7 +55,7 @@ function LatestNews() {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<NewsCard
+						<NewsSliderCard
 							image={image3}
 							date="12/12/2020"
 							title="Smart Solution For Ambuluwawa Biodiversity Complex"
@@ -63,7 +63,7 @@ function LatestNews() {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<NewsCard
+						<NewsSliderCard
 							image={image4}
 							date="12/12/2020"
 							title="Nawaloka Hospitals Mobile App"
@@ -71,7 +71,7 @@ function LatestNews() {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<NewsCard
+						<NewsSliderCard
 							image={image1}
 							date="12/12/2020"
 							title="Holopot"
@@ -79,7 +79,7 @@ function LatestNews() {
 						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<NewsCard
+						<NewsSliderCard
 							image={image2}
 							date="12/12/2020"
 							title="Nawaloka Hospitals Mobile App"

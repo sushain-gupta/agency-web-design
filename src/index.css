@@ -45,3 +45,16 @@ body,
 .swiper-slide {
 	height: auto !important;
 }
+
+.swiper-button-next {
+	color: #ffff;
+	padding: 1.8rem;
+	border-radius: 50%;
+	background-color: #1045d7;
+	box-shadow: #1045d7bb 0px 5px 15px;
+	/* box-shadow: 0 0 50px 15px; */
+}
+
+.swiper-button-next::after {
+	font-size: 1rem;
+}
