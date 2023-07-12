@@ -1,12 +1,10 @@
 import React from "react";
-import { Swiper } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper";
 import TeamCard from "../../../components/TeamSlider";
 
 const OurTeam = () => {
