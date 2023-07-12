@@ -4,7 +4,7 @@ import FooterLink from "../components/FooterLinks";
 function Footer() {
 	return (
 		<>
-			<section className="flex h-max flex-col gap-24 bg-neutral-900 px-20 pt-28 pb-12 text-slate-200">
+			<section className="flex h-max flex-col gap-24 bg-slate-950 px-20 pt-28 pb-12 text-slate-200">
 				<div className="flex">
 					<div className="grid w-[70%] grid-cols-4">
 						<div className="flex flex-col gap-5">

@@ -10,17 +10,17 @@ import bell from "../../../assets/png/bell.png";
 function Hero() {
 	return (
 		<>
-			<section className="flex h-[90vh] items-center justify-center gap-20 bg-neutral-900 p-0 text-base">
+			<section className="flex h-[90vh] items-center justify-center gap-20 bg-slate-950 p-20 text-base">
 				<p className="font-outline-1 absolute bottom-[370px] left-[170px] text-[21rem] text-transparent">
 					afq
 				</p>
 				{/* Col 1 */}
-				<div className="z-10 grid grid-rows-3">
-					<div className="row-span-2 row-start-3 ml-auto mt-auto w-20 -rotate-45">
+				<div className="z-10 grid grid-rows-4">
+					<div className="row-start-3 ml-auto mt-auto w-20">
 						<img src={bell} alt="" />
 					</div>
 					{/* CARD */}
-					<div className="row-start-2 m-auto flex h-max w-56 flex-col gap-2 rounded-xl bg-white/[0.25] p-5 text-gray-50 backdrop-blur-sm">
+					<div className="row-start-2 m-auto flex h-max w-52 flex-col gap-2 rounded-xl bg-white/[0.15] p-5 text-gray-50 backdrop-blur-[1px]">
 						<div className="flex w-full gap-2">
 							<div className="h-11 w-11 overflow-hidden rounded-full">
 								{" "}
@@ -45,7 +45,7 @@ function Hero() {
 
 				<div className="z-10 flex h-max w-[733px] flex-col place-items-center justify-evenly gap-16">
 					<div className="flex h-max flex-col place-items-center justify-evenly gap-10 text-center">
-						<h1 className="text-[42px] font-bold leading-[74px] text-white">
+						<h1 className="text-3xl font-bold leading-relaxed text-white">
 							Advanced software, advanced research for{" "}
 							<span className="text-[#41BBEA]">SIMPLE</span> life
 						</h1>

@@ -5,7 +5,7 @@ export const newsArray = [
 		name: "Name 1",
 		date: "20.12.2020",
 		profile:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102652/furniturelo/profile/profile7-min.jpg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile2-min_1_iquwj5.jpg",
 		image:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102127/furniturelo/newsCards/Rectangle_20_c6aa3t.svg",
 	},
@@ -15,7 +15,7 @@ export const newsArray = [
 		name: "Name 2",
 		date: "21.12.2020",
 		profile:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689101939/furniturelo/profile/profile3jpg-min_onpxxw.jpg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile3jpg-min_l6ljm3.jpg",
 		image:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102126/furniturelo/newsCards/Rectangle_21_wmuzxg.svg",
 	},
@@ -25,7 +25,7 @@ export const newsArray = [
 		name: "Name 3",
 		date: "22.12.2020",
 		profile:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689101940/furniturelo/profile/profile2-min_e42xwp.jpg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile6-min_ve1gt8.jpg",
 		image:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102125/furniturelo/newsCards/Rectangle_24_f32w66.svg",
 	},
@@ -35,7 +35,7 @@ export const newsArray = [
 		name: "Name 4",
 		date: "23.12.2020",
 		profile:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689101940/furniturelo/profile/profile4-min_cndb7n.jpg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_1_lf3z6b.jpg",
 		image:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102126/furniturelo/newsCards/Rectangle_23_nu1osq.svg",
 	},
@@ -45,7 +45,7 @@ export const newsArray = [
 		name: "Name 5",
 		date: "24.12.2020",
 		profile:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689101942/furniturelo/profile/profile5-min_pb6grm.jpg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile4-min_wwumhk.jpg",
 		image:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102125/furniturelo/newsCards/Rectangle_24_f32w66.svg",
 	},
@@ -55,7 +55,7 @@ export const newsArray = [
 		name: "Name 6",
 		date: "25.12.2020",
 		profile:
-			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689101946/furniturelo/profile/profile6-min_edq7sw.jpg",
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689149782/furniturelo/profile/profile5-min_iz6uyc.jpg",
 		image:
 			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689102125/furniturelo/newsCards/Rectangle_25_ugcdmx.svg",
 	},

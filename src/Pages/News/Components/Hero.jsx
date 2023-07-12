@@ -8,7 +8,7 @@ import bell from "../../../assets/svg/bell_2 1.svg";
 function Hero() {
 	return (
 		<>
-			<section className="relative grid grid-cols-3 items-center py-20 px-0 text-neutral-900">
+			<section className="relative grid grid-cols-3 items-center py-20 px-0 text-slate-950">
 				<div className="absolute bottom-28 right-40">
 					<img src={vector1} alt="" />
 				</div>
@@ -38,7 +38,7 @@ function Hero() {
 					<div className="my-5 flex items-center rounded-lg bg-zinc-100 px-2">
 						<BiSearch />
 						<input
-							className="w-72 bg-zinc-100 p-2 focus:outline-none text-zinc-700"
+							className="w-72 bg-zinc-100 p-2 text-zinc-700 focus:outline-none"
 							type="text"
 							placeholder="Search"
 						/>

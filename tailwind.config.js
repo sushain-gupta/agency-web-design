@@ -3,7 +3,9 @@ module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		extend: {
-			colors: {},
+			colors: {
+				"slate-950": "#050B17",
+			},
 		},
 	},
 	plugins: [],
