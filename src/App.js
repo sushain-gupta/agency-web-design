@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./global/Header";
+import Header from "./components/global/Header";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/index";
 
@@ -17,10 +17,7 @@ const App = () => {
 	};
 
 	return (
-		<div
-			style={{ width: getWidth() }}
-			className="app m-auto  transition-all duration-300"
-		>
+		<div style={{ width: getWidth() }} className="app m-auto bg-gray-50">
 			<Header />
 			<div className="content">
 				<Routes>

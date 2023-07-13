@@ -12,7 +12,7 @@ import startup from "../../../assets/png/startup.png";
 function WhatWeDo() {
 	return (
 		<>
-			<section className="flex flex-col items-center justify-evenly gap-20 p-20 border-t border-gray-300 bg-slate-50">
+			<section className="flex flex-col items-center justify-evenly gap-20 p-20 border-t border-gray-300">
 				<h1 className="text-4xl font-semibold">What do we do</h1>
 				<div className="grid h-max w-full grid-cols-4 items-center gap-12">
 					<WhatWeDoCard

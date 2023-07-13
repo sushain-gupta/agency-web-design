@@ -2,6 +2,16 @@ export const newsArray = [
 	{
 		title: "Lorem Ipsum is simply dummy text of the printing.",
 		desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .",
+		name: "Your Name",
+		date: "19.12.2020",
+		profile:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689159124/furniturelo/profile/Rectangle_75_actxbo.jpg",
+		image:
+			"https://res.cloudinary.com/dkezwrb3a/image/upload/v1689150690/furniturelo/newsCards/Rectangle_19_p2vxit.svg",
+	},
+	{
+		title: "Lorem Ipsum is simply dummy text of the printing.",
+		desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .",
 		name: "Name 1",
 		date: "20.12.2020",
 		profile:
