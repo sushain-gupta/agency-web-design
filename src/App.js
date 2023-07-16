@@ -6,7 +6,7 @@ import Home from "./Pages/Home/index";
 import Services from "./Pages/Services/index";
 import AboutUs from "./Pages/About/index";
 import News from "./Pages/News/index";
-import Footer from "./global/Footer";
+import Footer from "./components/global/Footer";
 import Contact from "./Pages/Contact/index";
 
 const App = () => {

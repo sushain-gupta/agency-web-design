@@ -1,5 +1,5 @@
 import React from "react";
-import FooterLink from "../components/FooterLinks";
+import FooterLink from "../FooterLinks";
 
 function Footer() {
 	return (
