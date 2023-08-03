@@ -46,7 +46,7 @@ function Footer() {
 						</div>
 					</div>
 
-					<div className="flex w-full flex-col gap-5 md:w-1/2 lg:w-1/2 xl:w-1/4 2xl:w-1/4 p-8">
+					<div className="flex w-full flex-col gap-5 md:w-1/2 lg:w-1/2 xl:w-1/4 2xl:w-1/3 p-8">
 						<h2 className="text-xl font-bold">Subscribe to our newsletter</h2>
 						<p>
 							Funding freemium long tail hypotheses first mover advantage assets
