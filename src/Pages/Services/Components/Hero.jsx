@@ -12,7 +12,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181151/agency-design/services/service-1_ppiw2w.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181151/agency-design/services/service-1_ppiw2w.svg"
 							alt=""
 						/>
 					</div>
@@ -39,7 +39,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181150/agency-design/services/Rectangle_10_zlu16u.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181150/agency-design/services/Rectangle_10_zlu16u.svg"
 							alt=""
 						/>
 					</div>
@@ -63,7 +63,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181150/agency-design/services/Rectangle_11_locipc.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181150/agency-design/services/Rectangle_11_locipc.svg"
 							alt=""
 						/>
 					</div>
@@ -90,7 +90,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181150/agency-design/services/Rectangle_10_1_ec0mn8.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181150/agency-design/services/Rectangle_10_1_ec0mn8.svg"
 							alt=""
 						/>
 					</div>
@@ -118,7 +118,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181150/agency-design/services/Rectangle_11_1_lpbtea.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181150/agency-design/services/Rectangle_11_1_lpbtea.svg"
 							alt=""
 						/>
 					</div>
@@ -146,7 +146,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181150/agency-design/services/Rectangle_10_2_wlogfs.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181150/agency-design/services/Rectangle_10_2_wlogfs.svg"
 							alt=""
 						/>
 					</div>
@@ -172,7 +172,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181149/agency-design/services/Rectangle_11_2_uemsh2.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181149/agency-design/services/Rectangle_11_2_uemsh2.svg"
 							alt=""
 						/>
 					</div>
@@ -200,7 +200,7 @@ function Hero() {
 					<div className="flex-1 overflow-hidden rounded-3xl">
 						<img
 							className="w-full object-cover"
-							src="https://res.cloudinary.com/dkezwrb3a/image/upload/v1689181152/agency-design/services/Rectangle_10_3_rj8kwt.svg"
+							src="https://res.cloudinary.com/sushain/image/upload/v1689181152/agency-design/services/Rectangle_10_3_rj8kwt.svg"
 							alt=""
 						/>
 					</div>
